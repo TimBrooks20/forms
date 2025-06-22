@@ -1,0 +1,16 @@
+.form-wrapper {
+    width: 900px;
+    height: 715px;
+    background-color: deepskyblue;
+    margin: 0 auto;
+    border: 10px solid skyblue;
+}
+
+@media (max-width: 900px) {
+    .form-wrapper {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}

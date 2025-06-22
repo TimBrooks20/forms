@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.form-wrapper {
+  width: 900px;
+  height: 715px;
+  background-color: deepskyblue;
+  margin: 0 auto;
+  border: 10px solid skyblue;
+}
+
+@media (max-width: 900px) {
+  .form-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+h1 {
+  color: deepskyblue;
+  font-size: 70px;
+  text-align: center;
+}
+
+.row-one {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.row-one .first-name {
+  width: 390px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.row-one .first-name .first-name-label {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+.row-one .first-name .first-name-input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: skyblue;
+}
+.row-one .first-name .first-name-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+.row-one .middle-letter {
+  width: 110px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.row-one .middle-letter .middle-letter-label {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+.row-one .middle-letter .middle-letter-input {
+  width: 110px;
+  height: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: skyblue;
+}
+.row-one .middle-letter .middle-letter-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+.row-one .last-name {
+  width: 390px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.row-one .last-name .last-name-label {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+.row-one .last-name .last-name-input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: skyblue;
+}
+.row-one .last-name .last-name-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+@media (max-width: 900px) {
+  .row-one {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .row-one .first-name, .row-one .middle-letter, .row-one .last-name {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .row-one .first-name-input, .row-one .middle-letter-input, .row-one .last-name-input {
+    width: 100%;
+  }
+}
+.row-two {
+  width: 100%;
+  height: 150px;
+  padding: 15px;
+}
+.row-two .email .email-label {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.row-two .email .email-input {
+  position: relative;
+  background-color: skyblue;
+}
+.row-two .email .email-input .text-field {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgb(16, 16, 16);
+  padding: 10px;
+  outline: none;
+}
+.row-two .email .email-input .text-field .text-field:focus {
+  border: 2px solid deepskyblue;
+}
+.row-two .email .email-input .icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.row-two .email .email-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.row-three {
+  width: 100%;
+  height: 150px;
+  padding: 15px;
+}
+.row-three .phone-number .phone-number-label {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.row-three .phone-number .phone-number-input {
+  position: relative;
+  background-color: skyblue;
+}
+.row-three .phone-number .phone-number-input .text-field {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgb(16, 16, 16);
+  padding: 10px;
+  outline: none;
+}
+.row-three .phone-number .phone-number-input .text-field .text-field:focus {
+  border: 2px solid deepskyblue;
+}
+.row-three .phone-number .phone-number-input .icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.row-three .phone-number .phone-number-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.submit-section {
+  font-size: 30px;
+  width: 100%;
+  margin-left: 380px;
+}
+.submit-section .submit {
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: skyblue;
+}
+
+@media (max-width: 900px) {
+  .submit-section {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .submit-section .submit {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,26 @@
+.submit-section {
+    font-size: 30px;
+    width: 100%;
+    margin-left: 380px;
+    
+    .submit{
+        border: 1px solid #000;
+        padding: 10px;
+        background-color: skyblue;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .submit-section {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        
+        .submit {
+            width: 100%;
+            padding: 15px;
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,141 @@
+.row-one {
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+
+    .first-name {
+        width: 390px;
+        height: 100%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        .first-name-label {
+            font-size: 25px;
+            color: rgb(0, 0, 0);
+            
+        }
+        
+
+        .first-name-input {
+            width: 300px;
+            height: 30px;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 16px;
+            background-color: skyblue;
+
+            input {
+                width: 100%;
+                height: 100%;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                background-color: transparent;
+                
+            }
+        }
+        
+    }
+    
+    .middle-letter {
+        width: 110px;
+        height: 100%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        .middle-letter-label {
+            font-size: 25px;
+            color: rgb(0, 0, 0);
+            
+        }
+        
+
+        .middle-letter-input {
+            width: 110px;
+            height: 30px;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 16px;
+            background-color: skyblue;
+
+            input {
+                width: 100%;
+                height: 100%;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                background-color: transparent;
+                
+            }
+        }
+        
+    }
+
+
+    .last-name {
+        width: 390px;
+        height: 100%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        .last-name-label {
+            font-size: 25px;
+            color: rgb(0, 0, 0);
+            
+        }
+        
+
+        .last-name-input {
+            width: 300px;
+            height: 30px;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 16px;
+            background-color: skyblue;
+
+            input {
+                width: 100%;
+                height: 100%;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                background-color: transparent;
+                
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 900px) {
+    .row-one {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+
+        .first-name, .middle-letter, .last-name {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .first-name-input, .middle-letter-input, .last-name-input {
+            width: 100%;
+        }
+    }
+}
